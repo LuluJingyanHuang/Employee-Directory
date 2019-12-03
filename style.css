@@ -1,0 +1,87 @@
+body{
+  width:100%;
+  height: 100%;
+}
+
+.wrap{
+    margin: auto;
+
+}
+
+.info{
+    display: inline-block;
+
+}
+#content{
+    width: 90%;
+    margin:auto;
+    align-self: center;
+    
+
+}
+#users{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-left: 0px;
+
+}
+h2{
+    color: #6b6a6a;
+    font-family: sans-serif;
+    margin:20px 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+#overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.hide{
+    display:none;
+  }
+
+
+/* individual card  */
+li{
+  list-style: none;
+}
+p{
+    line-height: 0.1em;
+    color:#a6a2a2;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    border:1px #dedede solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.member__img img{
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 5px;
+
+}
+
+.info{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  font-family: 'Rubik', sans-serif;
+
+
+}
