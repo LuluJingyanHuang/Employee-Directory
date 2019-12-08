@@ -16,8 +16,12 @@ body{
     width: 90%;
     margin:auto;
     align-self: center;
-    
 
+
+}
+
+.btn{
+  border:none;
 }
 #users{
     margin: auto;
@@ -31,7 +35,7 @@ body{
 h2{
     color: #6b6a6a;
     font-family: sans-serif;
-    margin:20px 10px;
+    margin:30px 10px;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -82,6 +86,47 @@ p{
   margin-bottom: auto;
   margin-left: 10px;
   font-family: 'Rubik', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
 
+
+}
+
+
+
+/* ///////Modal////// */
+
+#modal .info{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  font-family: 'Rubik', sans-serif;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: normal;
+
+}
+
+#modal .info h4{
+      margin-bottom: 0.2em;
+}
+
+#modal .info p{
+    margin-top: 1em;
+
+}
+
+#modal{
+  text-align: left;
+}
+
+.more{
+        margin-top: 40px;
+
+}
+
+
+.more p{
+        font-size: 0.8em;
 
 }
