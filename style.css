@@ -31,7 +31,7 @@ body{
 #users{
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 450px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     padding-left: 0px;
@@ -140,7 +140,7 @@ p{
   #users{
       margin: auto;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 450px 450px 450px;
       grid-column-gap: 20px;
       grid-row-gap: 20px;
       padding-left: 0px;
